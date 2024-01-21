@@ -1,7 +1,3 @@
-Sure, let's expand the README to include details about displaying a header, footer, and a filters box with a search button, along with separate CSS files for each section:
-
----
-
 # Web Static: Airbnb Clone - HTML & CSS
 
 ## Overview
