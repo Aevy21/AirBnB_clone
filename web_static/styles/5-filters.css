@@ -1,0 +1,61 @@
+.filters {
+	background-color: #fff;
+	height: 70px;
+	width: 100%;
+	border: 1px solid #DDDDDD;
+	display: flex;
+	justify-content: space-around;
+	margin: 0; /* Corrected the margin value */
+}
+
+.filter-input {
+	flex: 1;
+	height: 100%;
+	border: none;
+	padding: 0 10px;
+	font-size: 16px;
+	border-radius: 4px 0 0 4px;
+}
+
+.search-button {
+	font-size: 18px;
+	background-color: #FF5A5F;
+	color: #FFFFFF;
+	height: 60%;
+	width: 25%;
+	border: none; /* Used 'none' for consistency */
+	float: right;
+	margin: 11px 3px;
+	padding: 12px;
+}
+
+.filters button:hover {
+	opacity: 0.9; /* Corrected the comma to a period */
+}
+
+.locations,
+.amenities {
+	width: 25%;
+	height: 100%;
+	border-right: 1px solid #DDDDDD;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.locations {
+	border-right: none;
+}
+
+h3 {
+	font-weight: 600;
+	margin-top: 12px;
+	margin-bottom: 5px;
+}
+
+h4 {
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 12px;
+}
+
